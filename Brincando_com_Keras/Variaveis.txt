@@ -1,0 +1,27 @@
+Variaveis
+
+acousticness - Uma medida de confiança de 0,0 a 1,0 para saber se a faixa é acústica. 1.0 representa alta confiança de que a faixa é acústica.
+artists - Lista dos artistas mencionados.
+danceability - A capacidade de dança descreve o quão adequada uma faixa é para dançar com base em uma combinação de elementos musicais, incluindo tempo, estabilidade do ritmo, força da batida e regularidade geral. Um valor de 0,0 é menos dançante e 1,0 é mais dançante.
+duration_ms - A duração da faixa em milissegundos.
+energy - Energia é uma medida de 0,0 a 1,0 e representa uma medida perceptiva de intensidade e atividade. Normalmente, as faixas energéticas parecem rápidas, altas e barulhentas. Por exemplo, death metal tem alta energia, enquanto um prelúdio de Bach tem pontuação baixa na escala. As características perceptivas que contribuem para este atributo incluem faixa dinâmica, intensidade percebida, timbre, taxa de início e entropia geral.
+explicit - 0 = sem conteúdo explícito, 1 = conteúdo explícito (Linguagem violenta, Referências a violência física ou mental e abuso, Referências a conteúdos sexuais ou Linguagem discriminatória).
+id - O ID do Spotify para a faixa.
+instrumentalness - Prevê se uma faixa não contém vocais. Os sons “Ooh” e “aah” são tratados como instrumentais neste contexto. As faixas de rap ou palavra falada são claramente “vocais”. Quanto mais próximo o valor da instrumentalidade estiver de 1,0, maior será a probabilidade de a faixa não conter conteúdo vocal. Valores acima de 0,5 destinam-se a representar faixas instrumentais, mas a confiança é maior à medida que o valor se aproxima de 1,0.
+key - A chave geral estimada da musica. Os inteiros mapeiam para arremessos usando a notação de classe de pitch padrão. Por exemplo. 0 = C, 1 = C♯ / D ♭, 2 = D e assim por diante. Se nenhuma chave for detectada, o valor é -1.
+liveness - Detecta a presença de um público na gravação. Valores de vivacidade mais altos representam um aumento na probabilidade de a trilha ter sido executada ao vivo. Um valor acima de 0,8 fornece uma grande probabilidade de que a faixa esteja ao vivo.
+loudness - O volume geral de uma faixa em decibéis (dB). Os valores de intensidade são calculados em toda a trilha e são úteis para comparar a intensidade relativa das trilhas. Loudness é a qualidade de um som que é o principal correlato psicológico da força física (amplitude). Os valores típicos variam entre -60 e 0 db.
+mode - Modo indica a modalidade (maior ou menor) de uma faixa, o tipo de escala da qual seu conteúdo melódico é derivado. Maior é representado por 1 e menor é 0.
+name - Nome da música
+popularity - (0 a 100)
+release_date - Data de lançamento.
+speechiness - A fala detecta a presença de palavras faladas em uma faixa. Quanto mais exclusivamente falada for a gravação (por exemplo, talk show, audiolivro, poesia), mais próximo de 1,0 será o valor do atributo. Valores acima de 0,66 descrevem faixas que provavelmente são compostas inteiramente de palavras faladas. Valores entre 0,33 e 0,66 descrevem faixas que podem conter música e fala, em seções ou em camadas, incluindo casos como música rap. Valores abaixo de 0,33 provavelmente representam música e outras faixas não semelhantes à fala.
+tempo - O tempo estimado geral de uma faixa em batidas por minuto (BPM). Na terminologia musical, o tempo é a velocidade ou ritmo de uma determinada peça e deriva diretamente da duração média do tempo.
+valence - Uma medida de 0,0 a 1,0 que descreve a positividade musical transmitida por uma faixa. Faixas com alta valência soam mais positivas (por exemplo, feliz, alegre, eufórico), enquanto faixas com baixa valência soam mais negativas (por exemplo, triste, deprimido, irritado).
+year - Ano de lancamento da musica (1921 a 2020).
+
+Y = popularity
+
+X = year, valence, tempo, speechiness, loudness, liveness, instrumentalness, explicit, energy, duration_ms, danceability, acousticness 
+
+EXCLUIR = release_date, name, mode, key, ID, artists
